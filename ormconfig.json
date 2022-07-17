@@ -1,0 +1,15 @@
+{
+  "name": "default",
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "HARMONOGRAMOWANIE_DB",
+  "migrations": ["dist/migrations/**/*.{ts,js}"],
+  "entities": ["dist/entities/**/**.entity{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/migrations",
+    "entitiesDir": "src/entities"
+  }
+}
